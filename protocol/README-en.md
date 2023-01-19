@@ -33,7 +33,7 @@
 <section>
   <div class="text" style="padding-top: 1rem">
     <h3>Ready to Get Started?</h3>
-    <p>This session is be a 10-15 minute final survey. There will be no speaking tasks. Once you feel ready to begin, click the Join button below:
+    <p>This session is a 10-15 minute final survey. There will be no speaking tasks. Once you feel ready to begin, click the Join button below:
     </p>
   </div>
 </div>
