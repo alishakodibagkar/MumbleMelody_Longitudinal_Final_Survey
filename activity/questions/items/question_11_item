@@ -6,7 +6,7 @@
     "description": "Question 11 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": This tool in comparison to other assistive technologies that I have used in the past is:",
+    "question": "This tool in comparison to other assistive technologies that I have used in the past is:",
     "ui": {
         "inputType": "radio"
     },
