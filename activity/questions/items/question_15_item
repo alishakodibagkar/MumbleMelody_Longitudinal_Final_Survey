@@ -1,17 +1,17 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_15_item",
-    "prefLabel": "Question 15",
-    "description": "Question 15",
+    "@id": "question_14_item",
+    "prefLabel": "Question 14",
+    "description": "Question 14 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Are there particular words or sounds for which you stutter more?",
+    "question": "Do you have any comments on the app’s effect?",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 1200
+        "maxLength": 300
     }
 }

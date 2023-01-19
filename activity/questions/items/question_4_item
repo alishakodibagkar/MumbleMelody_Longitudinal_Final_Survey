@@ -3,27 +3,15 @@
     "@type": "reproschema:Field",
     "@id": "question_4_item",
     "prefLabel": "Question 4",
-    "description": "Question 4",
+    "description": "Question 4 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Is English your main spoken language?",
+    "question": "Please elaborate on why you feel this way:",
     "ui": {
-        "inputType": "radio"
+        "inputType": "textarea"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 1,
-        "multipleChoice": false,
-        "choices": [
-            {
-                "name": "Yes",
-                "value": 0
-            },
-            {
-                "name": "No",
-                "value": 1
-            }
-        ]
+        "valueType": "xsd:string",
+        "maxLength": 300
     }
 }

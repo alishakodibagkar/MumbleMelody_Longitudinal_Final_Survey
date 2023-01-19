@@ -3,30 +3,42 @@
     "@type": "reproschema:Field",
     "@id": "question_11_item",
     "prefLabel": "Question 11",
-    "description": "Question 11",
+    "description": "Question 11 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Are you right or left handed?",
+    "question": This tool in comparison to other assistive technologies that I have used in the past is:",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
+        "maxValue": 5,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Right handed",
+                "name": "Much less effective",
                 "value": 0
             },
             {
-                "name": "Left Handed",
+                "name": "Slightly less effective",
                 "value": 1
             },
             {
-                "name": "Ambidextrous",
+                "name": "About the same",
                 "value": 2
+            },
+            {
+                "name": "Slightly more effective",
+                "value": 3
+            },
+            {
+                "name": "Much more effective",
+                "value": 4
+            },
+            {
+                "name": "Not applicable",
+                "value": 4
             }
         ]
     }

@@ -6,43 +6,35 @@
     "description": "Question 3 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What is your gender?",
+    "question": "I feel like this app can make a positive impact on my fluency over a matter of days.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 6,
+        "maxValue": 4,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Woman",
+                "name": "Strongly Disagree",
                 "value": 0
             },
             {
-                "name": "Man",
+                "name": "Disagree",
                 "value": 1
             },
             {
-                "name": "Trans woman",
+                "name": "Neutral/Unsure",
                 "value": 2
             },
             {
-                "name": "Trans man",
+                "name": "Agree",
                 "value": 3
             },
             {
-                "name": "Non-binary",
+                "name": "Strongly Agree",
                 "value": 4
-            },
-            {
-                "name": "Prefer not to disclose",
-                "value": 5
-            },
-            {
-                "name": "Other, please specify",
-                "value": 6
             }
         ]
     }

@@ -3,10 +3,10 @@
     "@type": "reproschema:Field",
     "@id": "question_5_item",
     "prefLabel": "Question 5",
-    "description": "Question 5",
+    "description": "Question 5 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you stutter? Or have you ever stuttered?",
+    "question": "I feel like this app can make a positive impact on my fluency over a matter of weeks.",
     "ui": {
         "inputType": "radio"
     },
@@ -17,23 +17,23 @@
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Yes",
+                "name": "Strongly Disagree",
                 "value": 0
             },
             {
-                "name": "No",
+                "name": "Disagree",
                 "value": 1
             },
             {
-                "name": "Maybe",
+                "name": "Neutral/Unsure",
                 "value": 2
             },
             {
-                "name": "Yes in the past but not anymore",
+                "name": "Agree",
                 "value": 3
             },
             {
-                "name": "Other, please specify",
+                "name": "Strongly Agree",
                 "value": 4
             }
         ]

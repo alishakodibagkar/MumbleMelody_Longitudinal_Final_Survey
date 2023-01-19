@@ -1,36 +1,32 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_12.2_item",
-    "prefLabel": "Question 12.2",
-    "description": "Question 12.2",
+    "@id": "question_27_item",
+    "prefLabel": "Question 27",
+    "description": "Question 27 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Does your therapy focus more on accepting or reducing stuttering?",
+    "question": "Do you think the reverb mode could be useful for PWS in general?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 3,
+        "maxValue": 2,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Accepting",
+                "name": "Yes",
                 "value": 0
             },
             {
-                "name": "Reducing",
+                "name": "No",
                 "value": 1
             },
             {
-                "name": "Both",
+                "name": "Maybe",
                 "value": 2
-            },
-            {
-                "name": "Other, please specify",
-                "value": 3
             }
         ]
     }

@@ -3,15 +3,47 @@
     "@type": "reproschema:Field",
     "@id": "question_20_item",
     "prefLabel": "Question 20",
-    "description": "Question 20",
+    "description": "Question 20 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you have any other techniques to increase fluency? (i.e. choice of word, slowing down, whispering, preparation, pull-out, preparatory set, etc.?)",
+    "question": "Which of these situations do you find that the app could be useful for people who stutter? (check all that apply)",
     "ui": {
-        "inputType": "text"
+        "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 1200
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 6,
+        "multipleChoice": true,
+        "choices": [
+            {
+                "name": "Zoom calls",
+                "value": 0
+            },
+            {
+                "name": "Conversations while hanging out with friends",
+                "value": 1
+            },
+            {
+                "name": "At the workplace in person",
+                "value": 2
+            },
+            {
+                "name": "At the workplace virtually",
+                "value": 3
+            },
+            {
+                "name": "At home with family",
+                "value": 4
+            },
+            {
+                "name": "Speaking by yourself for practice",
+                "value": 5
+            },
+            {
+                "name": "Speaking while reading out loud",
+                "value": 6
+            }
+        ]
     }
 }

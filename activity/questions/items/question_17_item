@@ -3,15 +3,15 @@
     "@type": "reproschema:Field",
     "@id": "question_17_item",
     "prefLabel": "Question 17",
-    "description": "Question 17",
+    "description": "Question 17 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What are some instances in which you feel you stutter less?",
+    "question": "Do you have any comments on the app’s influence on your interactions with others?",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 1200
+        "maxLength": 300
     }
 }

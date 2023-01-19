@@ -3,17 +3,17 @@
     "@type": "reproschema:Field",
     "@id": "question_21_item",
     "prefLabel": "Question 21",
-    "description": "Question 21",
+    "description": "Question 21 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you have relatives who stutter?",
+    "question": "Do you feel that your stutter decreased over time as you used the app?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
+        "maxValue": 1,
         "multipleChoice": false,
         "choices": [
             {
@@ -23,10 +23,6 @@
             {
                 "name": "No",
                 "value": 1
-            },
-            {
-                "name": "I don’t know",
-                "value": 2
             }
         ]
     }

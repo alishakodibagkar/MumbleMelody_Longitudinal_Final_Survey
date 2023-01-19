@@ -3,58 +3,38 @@
     "@type": "reproschema:Field",
     "@id": "question_9_item",
     "prefLabel": "Question 9",
-    "description": "Question 9",
+    "description": "Question 9 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What is your education level?",
+    "question": I feel more confident in my speech after using this app for 1 month.",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 9,
+        "maxValue": 4,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "No schooling completed",
+                "name": "Strongly Disagree",
                 "value": 0
             },
             {
-                "name": "Nursery school to 8th grade",
+                "name": "Disagree",
                 "value": 1
             },
             {
-                "name": "Some high school, no diploma",
+                "name": "Neutral/Unsure",
                 "value": 2
             },
             {
-                "name": "High school graduate, diploma or equivalent (ex: GED)",
+                "name": "Agree",
                 "value": 3
             },
             {
-                "name": "Some college credit, no degree",
+                "name": "Strongly Agree",
                 "value": 4
-            },
-            {
-                "name": "Trade/technical/vocational training",
-                "value": 5
-            },
-            {
-                "name": "Associate’s degree",
-                "value": 6
-            },
-            {
-                "name": "Bachelor’s degree",
-                "value": 7
-            },
-            {
-                "name": "Master’s degree",
-                "value": 8
-            },
-            {
-                "name": "Doctorate degree",
-                "value": 9
             }
         ]
     }

@@ -1,19 +1,19 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_22_item",
-    "prefLabel": "Question 22",
-    "description": "Question 22 - radio item",
+    "@id": "question_24_item",
+    "prefLabel": "Question 24",
+    "description": "Question 24 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you feel that your stutter increased after using the app for a while/as you got used to using the app?",
+    "question": "Do you think this app could be useful for PWS in general?",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 1,
+        "maxValue": 2,
         "multipleChoice": false,
         "choices": [
             {
@@ -23,6 +23,10 @@
             {
                 "name": "No",
                 "value": 1
+            },
+            {
+                "name": "Maybe",
+                "value": 2
             }
         ]
     }

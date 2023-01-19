@@ -3,14 +3,39 @@
     "@type": "reproschema:Field",
     "@id": "question_1_item",
     "prefLabel": "Question 1",
-    "description": "Question 1",
+    "description": "Question 1 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What is your age?",
+    "question": "After using it for a month I felt like this app affected my way of speaking/my speech:",
     "ui": {
-        "inputType": "number"
+        "inputType": "radio"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Negatively",
+                "value": 0
+            },
+            {
+                "name": "Positively",
+                "value": 1
+            },
+            {
+                "name": "Neutrally (it did change my speech but not in a way that felt good or bad)",
+                "value": 2
+            },
+            {
+                "name": "It didn’t affect my speech at all",
+                "value": 3
+            },
+            {
+                "name": "Other",
+                "value": 4
+            }
+        ]
     }
 }

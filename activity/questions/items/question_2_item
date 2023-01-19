@@ -3,27 +3,15 @@
     "@type": "reproschema:Field",
     "@id": "question_2_item",
     "prefLabel": "Question 2",
-    "description": "Question 2 - radio item",
+    "description": "Question 2 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What is your sex at birth?",
+    "question": "If it affected your speech, please explain how it did so and why you think this effect is positive/negative/neutral",
     "ui": {
-        "inputType": "radio"
+        "inputType": "textarea"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 1,
-        "multipleChoice": false,
-        "choices": [
-            {
-                "name": "Female",
-                "value": 0
-            },
-            {
-                "name": "Male",
-                "value": 1
-            }
-        ]
+        "valueType": "xsd:string",
+        "maxLength": 300
     }
 }
