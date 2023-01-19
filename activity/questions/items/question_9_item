@@ -6,7 +6,7 @@
     "description": "Question 9 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": I feel more confident in my speech after using this app for 1 month.",
+    "question": "I feel more confident in my speech after using this app for 1 month.",
     "ui": {
         "inputType": "radio"
     },
