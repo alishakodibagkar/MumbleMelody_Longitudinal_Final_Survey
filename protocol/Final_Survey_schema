@@ -6,11 +6,11 @@
         }
     ],
     "@type": "reproschema:Protocol",
-    "@id": "Initial_Survey_schema",
+    "@id": "Final_Survey_schema",
     "prefLabel": {
-        "en": "Initial Survey Session"
+        "en": "Final Survey Session"
     },
-    "description": "Initial Survey Session for Mumble Melody Longitudinal Study",
+    "description": "Final Survey Session for Mumble Melody Longitudinal Study",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "landingPage": [{
