@@ -4,7 +4,7 @@
     "@id": "questions_schema",
     "prefLabel": "Questions",
     "description": "Questions for the day",
-    "preamble": "Please tell us more about yourself! You may answer any or all of these survey questions. Please do not include any identifying information (such as name or address) in your responses if you choose to answer the fill-in questions.",
+    "preamble": "You may answer any or all of these survey questions. Please do not include any identifying information (such as name or address) in your responses if you choose to answer the fill-in questions.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
