@@ -6,7 +6,7 @@
     "description": "Question 31 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What barriers do you foresee in others using this app?",
+    "question": "Mumble Melody is still in early stages of development and we would appreciate any feedback or recommendations. Do you have any suggestions for how we can improve the app?",
     "ui": {
         "inputType": "textarea"
     },

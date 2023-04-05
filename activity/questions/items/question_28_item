@@ -3,31 +3,15 @@
     "@type": "reproschema:Field",
     "@id": "question_28_item",
     "prefLabel": "Question 28",
-    "description": "Question 28 - radio item",
+    "description": "Question 28 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you think the harmonize mode could be useful for PWS in general?",
+    "question": "What features of the app would prevent you from continuing to use it?",
     "ui": {
-        "inputType": "radio"
+        "inputType": "textarea"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 2,
-        "multipleChoice": false,
-        "choices": [
-            {
-                "name": "Yes",
-                "value": 0
-            },
-            {
-                "name": "No",
-                "value": 1
-            },
-            {
-                "name": "Maybe",
-                "value": 2
-            }
-        ]
+        "valueType": "xsd:string",
+        "maxLength": 300
     }
 }

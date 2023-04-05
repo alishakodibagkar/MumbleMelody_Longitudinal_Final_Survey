@@ -6,23 +6,39 @@
     "description": "Question 21 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you feel that your stutter decreased over time as you used the app?",
+    "question": "Overall I feel this app made me...",
     "ui": {
         "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 1,
+        "maxValue": 5,
         "multipleChoice": false,
         "choices": [
             {
-                "name": "Yes",
+                "name": "Stutter less",
                 "value": 0
             },
             {
-                "name": "No",
+                "name": "Stutter more",
                 "value": 1
+            },
+            {
+                "name": "Initially made me stutter less and then stopped working",
+                "value": 2
+            },
+            {
+                "name": "Initially made me stutter more and then starting making me stutter less",
+                "value": 3
+            },
+            {
+                "name": "Stutter the same amount as I usually do",
+                "value": 4
+            },
+            {
+                "name": "None of the above",
+                "value": 5
             }
         ]
     }

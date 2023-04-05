@@ -6,7 +6,7 @@
     "description": "Question 29 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "What features of the app would prevent you from continuing to use it?",
+    "question": "How could you see this app being used in the future?",
     "ui": {
         "inputType": "textarea"
     },

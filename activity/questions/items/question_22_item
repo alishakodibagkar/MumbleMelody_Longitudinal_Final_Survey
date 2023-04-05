@@ -3,27 +3,15 @@
     "@type": "reproschema:Field",
     "@id": "question_22_item",
     "prefLabel": "Question 22",
-    "description": "Question 22 - radio item",
+    "description": "Question 22 - This is a text area item.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you feel that your stutter increased after using the app for a while/as you got used to using the app?",
+    "question": "Please explain further if you would like:",
     "ui": {
-        "inputType": "radio"
+        "inputType": "textarea"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 1,
-        "multipleChoice": false,
-        "choices": [
-            {
-                "name": "Yes",
-                "value": 0
-            },
-            {
-                "name": "No",
-                "value": 1
-            }
-        ]
+        "valueType": "xsd:string",
+        "maxLength": 300
     }
 }

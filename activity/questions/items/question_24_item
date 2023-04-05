@@ -6,7 +6,7 @@
     "description": "Question 24 - radio item",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
-    "question": "Do you think this app could be useful for PWS in general?",
+    "question": "Do you think the unaltered mode could be useful for people who stutter in general?",
     "ui": {
         "inputType": "radio"
     },
